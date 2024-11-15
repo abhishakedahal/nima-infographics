@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+}
+
+.infographic-container {
+    position: relative;
+    display: inline-block;
+}
+
+.infographic-background {
+    max-width: 100%;
+    /* Adjusts to fit the container */
+}
+
+.hotspot {
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    /* background-color: red; */
+    /* Invisible but clickable */
+}
+
+/* Specific positions for each mountain */
+
+.manaslu {
+    top: 15%;
+    left: 5%;
+    width: 5%;
+    height: 4%;
+}
+
+.everest {
+    top: 3%;
+    left: 11%;
+    width: 5%;
+    height: 4%;
+}
+
+.lhotse {
+    top: 18%;
+    left: 18%;
+    width: 5%;
+    height: 4%;
+}
+
+.nanga-parbat {
+    top: 20%;
+    left: 24.5%;
+    width: 7%;
+    height: 4%;
+}
+
+.gasherbrum1 {
+    top: 16%;
+    left: 33%;
+    width: 7%;
+    height: 4%;
+}
+
+.gasherbrum2 {
+    top: 26%;
+    left: 39%;
+    width: 6%;
+    height: 4%;
+}
+
+.broad-peak {
+    top: 31%;
+    left: 44%;
+    width: 6%;
+    height: 4%;
+}
+
+.k2 {
+    top: 10%;
+    left: 49%;
+    width: 6%;
+    height: 4%;
+}
+
+.dhaulagiri {
+    top: 14%;
+    left: 57.5%;
+    width: 6%;
+    height: 4%;
+}
+
+.cho-oyu {
+    top: 14%;
+    left: 64.1%;
+    width: 5%;
+    height: 4%;
+}
+
+.annapurna-i {
+    top: 15%;
+    left: 72.1%;
+    width: 7%;
+    height: 4%;
+}
+
+.makalu {
+    top: 22%;
+    left: 79.1%;
+    width: 5%;
+    height: 4%;
+}
+
+.kanchenjunga {
+    top: 8%;
+    left: 84.1%;
+    width: 7%;
+    height: 4%;
+}
+
+.shisha-pangma {
+    top: 29%;
+    left: 91.1%;
+    width: 8%;
+    height: 4%;
+}
+
+/* Add additional classes and styles for other mountains */
+#mountain-preview {
+    position: absolute;
+    pointer-events: none;
+}
+
+#preview-img {
+    max-width: 250px;
+    /* border: 2px solid #333; */
+    border-radius: 6px;
+    display: none;
+}
